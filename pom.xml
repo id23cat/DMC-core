@@ -25,15 +25,14 @@
 		<stefanbirkner.system-rulesVersion>1.16.1</stefanbirkner.system-rulesVersion>
 		<weka.weka-devVersion>3.9.1</weka.weka-devVersion>
 		<jfree.jfreechartVersion>1.0.19</jfree.jfreechartVersion>
-		<apache.commons-lang3Version>3.6</apache.commons-lang3Version>
-		<dmc-apiVersion>${project.version}</dmc-apiVersion>
+		<apache.commons-lang3Version>3.6</apache.commons-lang3Version>	
 	</properties>
 
 	<dependencies>
 		<dependency>
 			<groupId>by.bsuir.evm</groupId>
-			<artifactId>DMC-api</artifactId>
-			<version>${dmc-apiVersion}</version>
+			<artifactId>DMC-coreApi</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 
 		<!-- <dependency> <groupId>org.springframework.boot</groupId> <artifactId>spring-boot-starter</artifactId> 
