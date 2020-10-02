@@ -6,6 +6,7 @@
 
 	<groupId>rabbitmq</groupId>
 	<artifactId>core</artifactId>
+	<packaging>war</packaging>
 	<version>1.0-SNAPSHOT</version>
 	<parent>
 		<groupId>org.springframework.boot</groupId>
